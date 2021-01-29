@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style/style.css">
+    <script src="js/script.js"></script>
+    <title>Lucid landing</title>
+</head>
+
+<body>
+
+    <!--HEADER-->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="header__inner">
+                <div class="header__logo">
+                    <img src="/lucidOnepage/images/lucid-logo.png" alt="">
+                </div>
+                <div class="burger" id="burger" onclick="showHideBurgerMenu(this)">
+                    <div class="bar1"></div>
+                    <div class="bar2"></div>
+                    <div class="bar3"></div>
+                </div>
+
+                <nav class="nav" id="navList">
+                    <ul>
+                        <a href="#home" class="nav__link">Home</a>
+                        <a href="#features" class="nav__link">Features</a>
+                        <a href="#about" class="nav__link">About</a>
+                        <a href="#testimonials" class="nav__link">Testimonials</a>
+                        <a href="#pricing" class="nav__link">Pricing</a>
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+
+    <!--HOME-->
+    <section class="home" id="home">
+        <div class="container">
+            <div class="home__inner">
+                <div class="home__inner__left">
+                    <p class="subtitle">Introducing lucid theme</p>
+                    <h1 class="home__title">Carefully crafted and beautiful landing page.</h1>
+                    <p class="text home__text">Etiam ullamcorper et turpis eget hendrerit. Praesent varius risus mi, at
+                        elementum
+                        magna ultricies accumsan. Cras venenatis lacus sed dolor placerat tempus. Morbi blandit at neque
+                        ut
+                        imperdiet.</p>
+                    <div class="home__buttons">
+                        <button class="button button_primary">Download now</button>
+                        <button class="button button_secondary">View features</button>
+                    </div>
+                </div>
+                <div class="home__inner__right">
+                    <img class="home__image" src="/lucidOnepage/images/home-section-phones.png" alt="home-section-phones">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--features-->
+    <section class="features" id="features">
+        <div class="container">
+            <div class="features__inner">
+                <p class="subtitle">product overview</p>
+                <div class="features__title title">List of amazing features</div>
+                <div class="features__list features-list">
+                    <div class="features-list__item">
+                        <i class="features-list__ico fas fa-desktop"></i>
+                        <div class="features-list__title">
+                            Responsive
+                        </div>
+                        <div class="features-list__text text">
+                            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia
+                            consectetur.
+                        </div>
+                    </div>
+                    <div class="features-list__item">
+                        <i class="features-list__ico fal fa-cog"></i>
+                        <div class="features-list__title">
+                            Customizable
+                        </div>
+                        <div class="features-list__text text">
+                            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia
+                            consectetur.
+                        </div>
+                    </div>
+                    <div class="features-list__item">
+                        <i class="features-list__ico far fa-thumbs-up"></i>
+                        <div class="features-list__title">
+                            Lovely design
+                        </div>
+                        <div class="features-list__text text">
+                            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia
+                            consectetur.
+                        </div>
+                    </div>
+                    <div class="features-list__item">
+                        <i class="features-list__ico fas fa-mobile-alt"></i>
+                        <div class="features-list__title">
+                            Lovely design
+                        </div>
+                        <div class="features-list__text text">
+                            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum lacinia
+                            consectetur.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr style='background-color:#7d7976'>
+    <!--about-long-->
+    <section class="about-long" id="about">
+        <div class="container">
+            <div class="about-long__inner">
+                <div class="about-long__left">
+                    <img class='about-long__image' src="/lucidOnepage/images/about-long-phone.png" alt="about-long-phone">
+                </div>
+                <div class="about-long__right">
+                    <p class="subtitle">Dip into the details</p>
+                    <div class="about-long__title title">Beautiful on every device</div>
+                    <p class="about-long__text text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                        Morbi
+                        accumsan ipsum
+                        velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat
+                        auctor eu in elit.
+                    </p>
+                    <ul class="about-long__list">
+                        <li class="about-long__item">Awesome design</li>
+                        <li class="about-long__item">Fully responsive</li>
+                        <li class="about-long__item">Retina ready</li>
+                        <li class="about-long__item">Tons of features and easy to use</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--about-short-->
+    <section class="about-short">
+        <div class="container">
+            <div class="about-short__inner">
+                <div class="about-short__left">
+                    <p class="subtitle">Dip into the details</p>
+                    <div class="about-short__title title">Super easy to customize</div>
+                    <p class="about-short__text text">Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
+                        Morbi
+                        accumsan ipsum
+                        velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat
+                        auctor eu in elit.
+                    </p>
+                </div>
+                <div class="about-short__right">
+                    <img class='about-short__image' src="/lucidOnepage/images/about-short-phone.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--testimonials-->
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="testimonials__inner">
+                <p class="subtitle">
+                    Quality has its price
+                </p>
+                <div class="testimonials__title title">
+                    Pricings & Plans
+                </div>
+                <ul class="testimonials__slider slider">
+                    <li class="slider__item">
+                        <div class="slider__first">
+                            <div class="slider__review">
+                                Once upon a time all the Rivers combined to protest against the action of the Sea in
+                                making their waters salt. “When we come to you,” said they to the Sea.
+                            </div>
+                            <div class="slider__author">
+                                <img class="slider__image" src="/lucidOnepage/images/Warstwa 7.png" alt="">
+
+                                <div class="slider__about">
+                                    <p class="slider__name">John Doe</p>
+                                    <p class="slider__position">CEO, THE RIVERS
+                                        COMPANY</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider__second">
+                            <div class="slider__review">
+                                Once upon a time all the Rivers combined to protest against the action of the Sea in
+                                making their waters salt. “When we come to you,” said they to the Sea.
+                            </div>
+                            <div class="slider__author">
+                                <img class="slider__image" src="/lucidOnepage/images/Warstwa 16.png" alt="">
+                                <div class="slider__about">
+                                    <p class="slider__name">Dean Windchester</p>
+                                    <p class="slider__position">UX DESIGNER</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="slider__item">
+                        <div class="slider__first">
+                            <div class="slider__review">
+                                Once upon a time all the Rivers combined to protest against the action of the Sea in
+                                making their waters salt. “When we come to you,” said they to the Sea.
+                            </div>
+                            <div class="slider__author">
+                                <img class="slider__image" src="/lucidOnepage/images/Warstwa 16.png" alt="">
+                                <div class="slider__about">
+                                    <p class="slider__name">Nalivayko Anton</p>
+                                    <p class="slider__position">Looking for a job
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider__second">
+                            <div class="slider__review">
+                                Once upon a time all the Rivers combined to protest against the action of the Sea in
+                                making their waters salt. “When we come to you,” said they to the Sea.
+                            </div>
+                            <div class="slider__author">
+                                <img class="slider__image" src="/lucidOnepage/images/Warstwa 7.png" alt="">
+                                <div class="slider__about">
+                                    <p class="slider__name">Landing author</p>
+                                    <p class="slider__position">Web-designer</p>
+
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+
+                    <li class="slider__item">
+                        <div class="slider__first">
+
+                            <div class="slider__review">
+                                Once upon a time all the Rivers combined to protest against the action of the Sea in
+                                making their waters salt. “When we come to you,” said they to the Sea.
+                            </div>
+                            <div class="slider__author">
+                                <img class="slider__image" src="/lucidOnepage/images/Warstwa 7.png" alt="">
+                                <div class="slider__about">
+                                    <p class="slider__name">First reviewer</p>
+                                    <p class="slider__position">Employe</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider__second">
+
+                            <div class="slider__review">
+                                Once upon a time all the Rivers combined to protest against the action of the Sea in
+                                making their waters salt. “When we come to you,” said they to the Sea.
+
+                            </div>
+                            <div class="slider__author">
+                                <img class="slider__image" src="/lucidOnepage/images/Warstwa 16.png" alt="">
+                                <div class="slider__about">
+                                    <p class="slider__name">Second reviewer</p>
+                                    <p class="slider__position">Employe</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="slider__item">
+                        <div class="slider__first">
+
+                            <div class="slider__review">
+                                Once upon a time all the Rivers combined to protest against the action of the Sea in
+                                making their waters salt. “When we come to you,” said they to the Sea.
+                            </div>
+                            <div class="slider__author">
+                                <img class="slider__image" src="/lucidOnepage/images/Warstwa 16.png" alt="">
+
+                                <div class="slider__about">
+                                    <p class="slider__name">Third reviewer</p>
+                                    <p class="slider__position">Employe</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="slider__second">
+                            <div class="slider__review">
+                                Once upon a time all the Rivers combined to protest against the action of the Sea in
+                                making their waters salt. “When we come to you,” said they to the Sea.
+
+                            </div>
+                            <div class="slider__author">
+                                <img class="slider__image" src="/lucidOnepage/images/Warstwa 7.png" alt="">
+
+                                <div class="slider__about">
+                                    <p class="slider__name">Fourth reviewer</p>
+                                    <p class="slider__position">Employe</p>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                <div class="slider-dots">
+                    <span class="slider-dots_item active" onclick="currentSlide(1)"></span>
+                    <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+                    <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+                    <span class="slider-dots_item" onclick="currentSlide(4)"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--eye-cahthcer-->
+    <section class="eye-catcher">
+        <div class="container">
+            <div class="eye-catcher__inner">
+                <div class="eye-catcher__title title">Like what you see? <span
+                        class="title eye-catcher__title_light">Get this
+                        great theme now!</span>
+                </div>
+                <div class="eye-catcher__buttons">
+                    <button class="button button_secondary">View features</button>
+                    <button class="button button_primary">Download now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--pricing-->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <div class="pricing__inner">
+                <p class="subtitle">Quality has its price</p>
+                <div class="pricing__title title">Pricing & Plans</div>
+                <div class="pricing__tables">
+                    <div class="pricing__item">
+                        <div class="pricing__name">
+                            free
+                        </div>
+                        <div class="pricing__cost">
+                            <sup class="pricing__dollar">$</sup><span class="pricing__sum">0</span>
+                            <p class="pricing__timing">/per month</p>
+                        </div>
+                        <div class="pricing__about">
+                            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span
+                                class="pricing__about_blue"> lacinia</span>
+                            consectetur.
+                        </div>
+                        <button class="pricing__purchase button">
+                            Order now
+                        </button>
+                    </div>
+                    <div class="pricing__item">
+                        <div class="pricing__name">
+                            personal
+                        </div>
+                        <div class="pricing__cost">
+                            <sup class="pricing__dollar">$</sup><span class="pricing__sum">25</span>
+                            <p class="pricing__timing">/per month</p>
+                        </div>
+                        <div class="pricing__about">
+                            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span
+                                class="pricing__about_blue"> lacinia</span>
+                            consectetur.
+                        </div>
+                        <button class="pricing__purchase button">
+                            Order now
+                        </button>
+                    </div>
+                    <div class="pricing__item">
+                        <div class="pricing__name">
+                            business
+                        </div>
+                        <div class="pricing__cost">
+                            <sup class="pricing__dollar">$</sup><span class="pricing__sum">50</span>
+                            <p class="pricing__timing">/per month</p>
+                        </div>
+                        <div class="pricing__about">
+                            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span
+                                class="pricing__about_blue"> lacinia</span>
+                            consectetur.
+                        </div>
+                        <button class="pricing__purchase button">
+                            Order now
+                        </button>
+                    </div>
+                    <div class="pricing__item">
+                        <div class="pricing__name">
+                            ultimate
+                        </div>
+                        <div class="pricing__cost">
+                            <sup class="pricing__dollar">$</sup><span class="pricing__sum">99</span>
+                            <p class="pricing__timing">/per month</p>
+                        </div>
+                        <div class="pricing__about">
+                            Fusce fermentum placerat magna ac pharetra. Aliquam euismod elit non ipsum <span
+                                class="pricing__about_blue"> lacinia</span>
+                            consectetur.
+                        </div>
+                        <button class="pricing__purchase button">
+                            Order now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--contact-->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="contact__inner">
+                <p class="subtitle">stay in touch</p>
+                <div class="contact__title title">Contact us</div>
+                <div class="contact__items">
+                    <div class="contact__item">
+                        <img src="/lucidOnepage/images/Phone.png" alt="">
+                        <p class="contact__content">
+                            Phone: (415) 124-5678 <br />
+                            Fax: (412) 123-8290
+                        </p>
+                    </div>
+                    <div class="contact__item">
+                        <img src="/lucidOnepage/images/Pointer.png" alt="">
+                        <p class="contact__content">
+                            1001 Brickell Bay Dr. <br />
+                            Suite 1900 <br />
+                            Miami, FL 33131
+                        </p>
+                    </div>
+
+                    <div class="contact__item">
+                        <img src="/lucidOnepage/images/Envelope.png" alt="">
+                        <p class="contact__content">
+                            support@yourname.com </p>
+                    </div>
+
+                </div>
+                <form class="contact-form">
+                    <div class="contact-form__inner">
+                        <div class="contact-form__left">
+                            <input placeholder="NAME *" name="name" type="text" class="contact-form__input">
+                            <input placeholder="EMAIL *" name="email" type="email" class="contact-form__input">
+                            <input placeholder="SUBJECT *" name="subject" type="text" class="contact-form__input">
+                        </div>
+                        <div class="contact-form__right">
+                            <textarea class="contact-form__input__textarea" placeholder="MESSAGE *" name="message" id=""
+                                cols="40" rows="7.5"></textarea>
+                        </div>
+                    </div>
+                    <button class="contact__button button button_primary">Send message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2385.1803844765327!2d37.77985092097974!3d44.68953133065364!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40f1f8ff8456db99%3A0x27fc172b66041737!2z0L_RgC4g0JvQtdC90LjQvdCwLCAyMiwg0J3QvtCy0L7RgNC-0YHRgdC40LnRgdC6LCDQmtGA0LDRgdC90L7QtNCw0YDRgdC60LjQuSDQutGA0LDQuSwgMzUzOTEw!5e0!3m2!1sru!2sru!4v1609008552784!5m2!1sru!2sru"
+        width="100%" height="370px" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+        tabindex="0">
+    </iframe>
+    <!--footer-->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer__socials">
+                    <a class="footer__ico" href="https://behance.com"> <i class=" fab fa-behance"></i></a>
+                    <a class="footer__ico" href="https://dribble.com"> <i class=" fab fa-dribbble"></i></a>
+                    <a class="footer__ico" href="https://twitter.com"> <i class=" fab fa-twitter"></i></a>
+                    <a class="footer__ico" href="https://facebook.com"> <i class=" fab fa-facebook"></i></a>
+                    <a class="footer__ico" href="https://ru.linkedin.com"> <i class=" fab fa-linkedin"></i></a>
+                </div>
+                <p class="footer__about">copyright © 2014 lucid onepage theme</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

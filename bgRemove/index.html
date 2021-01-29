@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="/bgRemove/css/style.css">
+   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+   <title>Background remove</title>
+</head>
+
+<body>
+   <section class="remove">
+      <div class="container">
+         <div class="remove__inner">
+            <h1>Remove bacgkround from image</h1>
+            <div class="remove__input-file mt-5">
+               <div class="custom-file">
+                  <div class="form-group">
+                     <input type="file" class="custom-file-input" id="fileUpload" aria-describedby="inputLabel">
+                     <label class="custom-file-label" for="fileUpload">Choose file</label>
+                  </div>
+
+                  <div class="form-group">
+                     <label for="bg_color">Choose background color</label>
+                     <select class="custom-select" id="bg_color">
+                        <option value="">Transparent</option>
+                        <option value="black">Black</option>
+                        <option value="green">Green</option>
+                        <option value="yellow">Yellow</option>
+                        <option value="brown">Brown</option>
+                     </select>
+                  </div>
+               </div>
+            </div>
+
+            <div class="remove__tabs mt-4">
+               <h3>Result</h3>
+               <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                  <a class="nav-item nav-link active" id="original-image" data-toggle="tab" href="#original" role="tab"
+                     aria-controls="original" aria-selected="true">Original image</a>
+
+                  <a class="nav-item nav-link" id="edited-image" data-toggle="tab" href="#edited" role="tab"
+                     aria-controls="edited" aria-selected="false">Image without bg
+                  </a>
+               </div>
+               <div class="tab-content" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="original" role="tabpanel" aria-labelledby="original-image">
+                     <img src="" class="remove__nonedit mt-2" alt="">
+                  </div>
+
+                  <div class="tab-pane fade" id="edited" role="tabpanel" aria-labelledby="edited-image">
+                     <a id="saveBtn" class="text-center">
+                        <button class=" btn btn-primary mt-2 ">Save Image</button>
+                     </a>
+                     <img class="remove__result d-block ml-auto mr-auto mt-2" src="" alt="">
+                     <img class="loader ml-auto mr-auto" src="/bgRemove/img/Spin-1s-207px.svg" alt="">
+                  </div>
+               </div>
+            </div>
+         </div>
+   </section>
+
+
+   <!--js scripts-->
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+   </script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+   </script>
+   <script src="/bgRemove/js/script.js"></script>
+</body>
+
+</html>

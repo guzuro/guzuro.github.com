@@ -1,0 +1,341 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:Roboto:wght@300;400;500;700&family=Source+Sans+Pro:wght@600&display=swap');
+
+
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+
+body,
+html {
+  font-family: 'Bebas', sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0px 10px;
+}
+
+/*home section */
+.home {
+  background: url("../img/about_bg.jpg") center no-repeat;
+  background-size: cover;
+  padding: 80px 0 250px 0;
+}
+
+.home__inner {
+  color: #fff;
+}
+
+.activity {
+  font-family: 'Source Sans Pro', sans-serif;
+  text-align: center;
+  font-size: 21px;
+  color: #fff;
+}
+
+.home__body {
+  margin: 200px 0px 0px 0px;
+  text-align: left;
+  width: 100%;
+  max-width: 550px;
+}
+
+.home__subtitle,
+.home__title {
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.home__subtitle {
+  font-size: 23px;
+  color: #b7b7b7;
+}
+
+.home__title {
+  font-size: 63px;
+}
+
+.home__text {
+  font-size: 14px;
+  line-height: 23px;
+  text-shadow: 1px 1px 3px black;
+}
+
+/*gallery section*/
+.gallery {
+  padding: 70px 0px 0 0;
+}
+
+.gallery__inner {
+  display: flex;
+}
+
+.gallery__body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  font-size: 30px;
+  color: black;
+}
+
+.gallery__text {
+  margin: 0px 0px 0px 60px;
+}
+
+.text {
+  font-weight: 300;
+  font-size: 13px;
+  color: #b7b7b7;
+  line-height: 24px;
+
+}
+
+.gallery__images {
+  margin: 55px 0px 0px 0px;
+  position: relative;
+  flex-wrap: wrap;
+
+  display: flex;
+}
+
+.gallery__item {
+  max-width: 100%;
+}
+
+.gallery__right {
+  position: relative;
+  bottom: 129px;
+}
+
+.gallery__column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.gallery__row {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+@media screen and (max-width:948px) {
+  .gallery_long {
+    display: none;
+  }
+
+  .gallery {
+    padding-bottom: 70px;
+  }
+
+  .gallery__images {
+    justify-content: center;
+  }
+
+  .gallery__item{
+    margin: 2px 0px 0px 0px;
+  }
+
+  .gallery__row {
+    justify-content: center;
+  }
+}
+
+
+/*lorem-block*/
+.lorem-block {
+  padding: 70px 0px;
+  background: url("../img/bg_2.jpg") center no-repeat;
+  background-size: cover;
+}
+
+.lorem-block__inner {
+  color: #fff;
+  text-align: center;
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.border-title {
+  font-weight: 300;
+  font-size: 24px;
+  border: 1px #fff solid;
+  padding: 10px;
+  max-width: 180px;
+  border-radius: 5px;
+  margin: 0 auto;
+}
+
+.lorem-block__text {
+  color: white;
+  margin: 30px 0px 0px 0px;
+}
+
+/*statistics*/
+.statistics {
+  padding: 70px 0px 120px 0px;
+}
+
+.statistics__title {
+  text-align: center;
+}
+
+.statistics__body {
+  margin: 80px 0px 0px 0px;
+}
+
+.statistics__text {
+  color: #000;
+  margin: 20px 0px 0px 0px;
+}
+
+.statistics__list {
+  margin: 20px -10px;
+  background-color: #f5f5f5;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 15px 0px;
+}
+
+.item {
+  margin: 0px 10px;
+  text-align: center;
+}
+
+.item__count {
+  font-size: 28px;
+  font-weight: 500;
+}
+
+.item__about {
+  font-size: 17px;
+}
+
+/*video section*/
+.video {
+  background: url("../img/bg_3.jpg") center no-repeat;
+  background-size: cover;
+  padding: 120px 0 100px 0px;
+}
+
+.video__inner {
+  text-align: center;
+}
+
+.video__body {
+  max-width: 620px;
+  margin: 0 auto;
+}
+
+.video__title {
+  color: #fff;
+
+}
+
+.video__text {
+  margin: 30px 0px 0px 0px;
+}
+
+.video__frame {
+  margin: 80px 0px 0px 0px;
+  max-width: 100%;
+}
+
+.video__activity {
+  margin: 115px 0px 0px 0px;
+}

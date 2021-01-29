@@ -1,0 +1,23 @@
+input:hover {
+   cursor: pointer;
+}
+
+.remove {
+   position: relative;
+}
+
+.remove__nonedit {
+   width: 70%;
+}
+
+.remove__nonedit,
+.remove__edit {
+   display: block;
+   margin: 0 auto;
+}
+
+.loader,
+#settingsBtn, #saveBtn {
+   display: none;
+}
+
