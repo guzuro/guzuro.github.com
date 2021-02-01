@@ -12,6 +12,7 @@
 
 | ПРОЕКТ | ТЕХНОЛОГИИ | КАТЕГОРИЯ |
 |--------|----------- | ----------|
+[Angular simple string methods app](https://guzuro.github.io/string-methods/) | Bootstrap, TypeScript, Angular 11 | Single Page Application (SPA) 
 [Simple issue tracker](https://guzuro.github.io/issueTracker/) | HTML, CSS, Bootstrap, JavaScript | JavaScript 
 [Waxom](https://guzuro.github.io/waxom/) | HTML, CSS, jQuery | Верстка 
 [Dart Service Manager](https://guzuro.github.io/dartService/) | HTML, CSS, Bootstrap, jQuery | Верстка 
