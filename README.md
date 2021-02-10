@@ -12,6 +12,7 @@
 
 | ПРОЕКТ | ТЕХНОЛОГИИ | КАТЕГОРИЯ |
 |--------|----------- | ----------|
+[NTI Contest, 1 round App](https://guzuro.github.io/logistic-nti-app/index.html) | TypeScript, Angular 11, Firebase, Bootstrap| Single Page Application (SPA) 
 [Angular simple string methods app](https://guzuro.github.io/string-methods/) | Bootstrap, TypeScript, Angular 11 | Single Page Application (SPA) 
 [Simple issue tracker](https://guzuro.github.io/issueTracker/) | HTML, CSS, Bootstrap, JavaScript | JavaScript 
 [Waxom](https://guzuro.github.io/waxom/) | HTML, CSS, jQuery | Верстка 
