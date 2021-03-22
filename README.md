@@ -1,18 +1,19 @@
 ### Nalivayko Anton
 
 ##### Стэк:
-  - JavaScript (jQuery), TypeScript
-  - Angular 2+
+  - JavaScript, TypeScript
+  - Angular 6+, jQuery
   - CSS, SASS/SCSS, БЭМ, Flex
-  - Bootstrap
+  - Bootstrap, Angular Material
+  - Firebase (db+auth), MySQL
   - Git
-  - PHP, WordPress (Guzzle)
  
 ##### Проекты 
 
 | ПРОЕКТ | ТЕХНОЛОГИИ | КАТЕГОРИЯ |
 |--------|----------- | ----------|
-[NTI Contest, 1 round App](https://guzuro.github.io/logistic-nti-app/index.html) | TypeScript, Angular 11, Firebase, Bootstrap| Single Page Application (SPA) 
+[Олимпиада НТИ (финал - призер) // дополнительно дорабатывается](https://guzuro.github.io/ntiFinal/) | TypeScript, Angular 11, Firebase, Angular Material | Single Page Application (SPA) 
+[Олимпиада НТИ (отборочный этап - пройден)](https://guzuro.github.io/logistic-nti-app/index.html) | TypeScript, Angular 11, Firebase, Bootstrap | Single Page Application (SPA) 
 [Angular simple string methods app](https://guzuro.github.io/string-methods/) | Bootstrap, TypeScript, Angular 11 | Single Page Application (SPA) 
 [Simple issue tracker](https://guzuro.github.io/issueTracker/) | HTML, CSS, Bootstrap, JavaScript | JavaScript 
 [Waxom](https://guzuro.github.io/waxom/) | HTML, CSS, jQuery | Верстка 
@@ -23,5 +24,3 @@
 [Review List](https://guzuro.github.io/reviewsList/) | HTML, CSS, JavaScript | JavaScript
 [Car Catalog](https://guzuro.github.io/carCatalog/) | HTML, CSS, JavaScript | JavaScript
 [Remove background from image](https://guzuro.github.io/bgRemove/) | HTML, CSS, Bootstrap JavaScript, benzin.io API | JavaScript
-
-
