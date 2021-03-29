@@ -14,7 +14,6 @@
 |--------|----------- | ----------|
 [Олимпиада НТИ (финал - призер) // дополнительно дорабатывается](https://guzuro.github.io/ntiFinal/) | TypeScript, Angular 11, Firebase, Angular Material | Single Page Application (SPA) 
 [Олимпиада НТИ (отборочный этап - пройден)](https://guzuro.github.io/logistic-nti-app/index.html) | TypeScript, Angular 11, Firebase, Bootstrap | Single Page Application (SPA) 
-[Angular simple string methods app](https://guzuro.github.io/string-methods/) | Bootstrap, TypeScript, Angular 11 | Single Page Application (SPA) 
 [Simple issue tracker](https://guzuro.github.io/issueTracker/) | HTML, CSS, Bootstrap, JavaScript | JavaScript 
 [Waxom](https://guzuro.github.io/waxom/) | HTML, CSS, jQuery | Верстка 
 [Dart Service Manager](https://guzuro.github.io/dartService/) | HTML, CSS, Bootstrap, jQuery | Верстка 
