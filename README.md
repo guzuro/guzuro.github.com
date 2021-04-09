@@ -12,7 +12,8 @@
 
 | ПРОЕКТ | ТЕХНОЛОГИИ | КАТЕГОРИЯ |
 |--------|----------- | ----------|
-[Олимпиада НТИ (финал - призер) // дополнительно дорабатывается](https://guzuro.github.io/ntiFinal/) | TypeScript, Angular 11, Firebase, Angular Material | Single Page Application (SPA) 
+[Олимпиада НТИ (финал - призер)](https://guzuro.github.io/ntiFinal/) | TypeScript, Angular 11, Firebase, Angular Material | Single Page Application (SPA) 
+[Money Manager App](https://guzuro.github.io/budget-app/) | TypeScript, Angular 11, Angular Material | Single Page Application (SPA) 
 [Олимпиада НТИ (отборочный этап - пройден)](https://guzuro.github.io/logistic-nti-app/index.html) | TypeScript, Angular 11, Firebase, Bootstrap | Single Page Application (SPA) 
 [Simple issue tracker](https://guzuro.github.io/issueTracker/) | HTML, CSS, Bootstrap, JavaScript | JavaScript 
 [Waxom](https://guzuro.github.io/waxom/) | HTML, CSS, jQuery | Верстка 
